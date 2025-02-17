@@ -26,7 +26,7 @@ buildscript {
         // 4.1.0-alpha10 or above and Android Studio 4.1 Canary 10 or above is required for
         // TensorFlow Lite / Machine Learning (ML) binding
         // 8.1.0
-        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'com.android.tools.build:gradle:8.8.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
     }
@@ -36,6 +36,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
 }
 
